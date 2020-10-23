@@ -1,7 +1,4 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-
-
 import { Post } from './post.model';
 import { PostService } from './post.service';
 import { Subscription } from 'rxjs';
